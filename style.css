@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    width: 100%;
+}
+
+#header {
+    padding-top: 90px;
+    padding-left: 40px;
+    text-align: left;
+    background-image: url("cable_bridge.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    color: aliceblue;
+    height: 200px; 
+    width: 100%;   
+
+}
+.places {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+.picto {
+    height: 180px;
+    width: 180px;
+    border: 2px solid rgb(251, 250, 250);
+    border-radius: 200px;
+}
+#lmd {
+    border-radius: 20px; 
+    
+}
+#elgandal {
+    border-radius: 20px;
+    
+
+}
+#nagnur {
+    border-radius: 20px;
+    
+}
+.guide {
+    margin: 0px auto;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(178, 199, 149);
+    border-bottom: 15px solid rgb(2, 15, 3);
+    border-radius: 20px;
+}
+.guide-img {
+        border-radius: 500px;
+        width: 180px;
+        
+}
